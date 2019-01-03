@@ -8,8 +8,8 @@ namespace JHashimoto.DataPipeline2Doc.Tests {
         public void GetJsonTest() {
             var repository = new InMemoryDataPipelineDefinitionRepository();
             var actual = repository.FindById("test");
-            var expected = "test:aaa";
-            Assert.AreEqual(expected, actual);
+            var notExpected = string.Empty;
+            Assert.AreNotEqual(notExpected, actual);
         }
     }
 }
