@@ -185,5 +185,9 @@ namespace JHashimoto.DataPipeline2Doc.InMemory {
         public string FindById(string key) {
             return json;
         }
+
+        //public string GetObjectsName() {
+
+        //}
     }
 }
