@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataPipeline2DocLambda\DataPipeline2DocLambda.csproj" />
+    <ProjectReference Include="..\JHashimoto.DataPipeline2DocLambda\JHashimoto.DataPipeline2DocLambda.csproj" />
   </ItemGroup>
 
 </Project>

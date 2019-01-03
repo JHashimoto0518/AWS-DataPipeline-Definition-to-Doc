@@ -29,18 +29,18 @@ Once you have edited your function you can use the following command lines to bu
 
 Restore dependencies
 ```
-    cd "DataPipeline2DocLambda"
+    cd "JHashimoto.DataPipeline2DocLambda"
     dotnet restore
 ```
 
 Execute unit tests
 ```
-    cd "DataPipeline2DocLambda/test/DataPipeline2DocLambda.Tests"
+    cd "JHashimoto.DataPipeline2DocLambda/test/JHashimoto.DataPipeline2DocLambda.Tests"
     dotnet test
 ```
 
 Deploy function to AWS Lambda
 ```
-    cd "DataPipeline2DocLambda/src/DataPipeline2DocLambda"
+    cd "JHashimoto.DataPipeline2DocLambda/src/JHashimoto.DataPipeline2DocLambda"
     dotnet lambda deploy-function
 ```

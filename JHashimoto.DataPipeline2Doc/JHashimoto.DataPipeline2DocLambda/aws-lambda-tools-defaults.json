@@ -15,5 +15,5 @@
   "function-runtime":"dotnetcore1.0",
   "function-memory-size" : 256,
   "function-timeout" : 30,
-  "function-handler" : "DataPipeline2DocLambda::DataPipeline2DocLambda.Function::FunctionHandler"
+  "function-handler" : "JHashimoto.DataPipeline2DocLambda::JHashimoto.DataPipeline2DocLambda.Function::FunctionHandler"
 }
