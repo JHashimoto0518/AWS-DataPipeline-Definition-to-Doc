@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using JHashimoto.DataPipeline2Doc.Domain.DataPipelineDefinition;
+using Codeplex.Data;
 
 namespace JHashimoto.DataPipeline2Doc.InMemory {
     internal class InMemoryDataPipelineDefinitionRepository : IDataPipelineDefinitionRepository {
@@ -186,8 +187,12 @@ namespace JHashimoto.DataPipeline2Doc.InMemory {
             return json;
         }
 
-        //public string GetObjectsName() {
+        public string GetObjectsName() {
+            dynamic obj = DynamicJson.Parse(json);
+            string value = obj.objects[0].name;
 
-        //}
+            return value;
+            
+        }
     }
 }

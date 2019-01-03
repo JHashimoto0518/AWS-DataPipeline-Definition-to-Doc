@@ -7,9 +7,9 @@ namespace JHashimoto.DataPipeline2Doc.Tests {
         [TestMethod]
         public void GetJsonTest() {
             var repository = new InMemoryDataPipelineDefinitionRepository();
-            var actual = repository.FindById("test");
-            var notExpected = string.Empty;
-            Assert.AreNotEqual(notExpected, actual);
+            var actual = repository.GetObjectsName();
+            var expected = "Default";
+            Assert.AreEqual(expected, actual);
         }
     }
 }
