@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\JHashimoto.DataPipeline2Doc\JHashimoto.DataPipeline2Doc.csproj" />
+    <ProjectReference Include="..\JHashimoto.DataPipeline2Doc.InMemory\JHashimoto.DataPipeline2Doc.InMemory.csproj" />
   </ItemGroup>
 
 </Project>
