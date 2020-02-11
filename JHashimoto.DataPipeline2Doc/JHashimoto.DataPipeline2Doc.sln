@@ -1,17 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JHashimoto.DataPipeline2DocLambda", "JHashimoto.DataPipeline2DocLambda\JHashimoto.DataPipeline2DocLambda.csproj", "{36E328F6-C4A2-428C-A252-D38AAC360D9E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JHashimoto.DataPipeline2DocLambda.Tests", "JHashimoto.DataPipeline2DocLambda.Tests\JHashimoto.DataPipeline2DocLambda.Tests.csproj", "{54CC42CC-648F-4B6C-93C0-AF00C86EBB86}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JHashimoto.DataPipeline2Doc.Tests", "JHashimoto.DataPipeline2Doc.Tests\JHashimoto.DataPipeline2Doc.Tests.csproj", "{51164424-EE82-4F4F-99F8-5CDE67C4567A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JHashimoto.DataPipeline2Doc.Domain", "JHashimoto.DataPipeline2Doc.Domain\JHashimoto.DataPipeline2Doc.Domain.csproj", "{85284AE3-3F22-4086-B6A8-4080568C5DCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JHashimoto.DataPipeline2Doc.Domain", "JHashimoto.DataPipeline2Doc.Domain\JHashimoto.DataPipeline2Doc.Domain.csproj", "{85284AE3-3F22-4086-B6A8-4080568C5DCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JHashimoto.DataPipeline2Doc.InMemory", "JHashimoto.DataPipeline2Doc.InMemory\JHashimoto.DataPipeline2Doc.InMemory.csproj", "{2610BFA4-A7CD-4A81-AB8D-320F2DFB8807}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JHashimoto.DataPipeline2Doc.InMemory", "JHashimoto.DataPipeline2Doc.InMemory\JHashimoto.DataPipeline2Doc.InMemory.csproj", "{2610BFA4-A7CD-4A81-AB8D-320F2DFB8807}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36E328F6-C4A2-428C-A252-D38AAC360D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36E328F6-C4A2-428C-A252-D38AAC360D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36E328F6-C4A2-428C-A252-D38AAC360D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36E328F6-C4A2-428C-A252-D38AAC360D9E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{54CC42CC-648F-4B6C-93C0-AF00C86EBB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54CC42CC-648F-4B6C-93C0-AF00C86EBB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54CC42CC-648F-4B6C-93C0-AF00C86EBB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54CC42CC-648F-4B6C-93C0-AF00C86EBB86}.Release|Any CPU.Build.0 = Release|Any CPU
 		{51164424-EE82-4F4F-99F8-5CDE67C4567A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{51164424-EE82-4F4F-99F8-5CDE67C4567A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51164424-EE82-4F4F-99F8-5CDE67C4567A}.Release|Any CPU.ActiveCfg = Release|Any CPU
