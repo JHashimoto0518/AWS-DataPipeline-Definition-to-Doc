@@ -7,6 +7,9 @@ using Codeplex.Data;
 namespace JHashimoto.DataPipeline2Doc.InMemory {
     internal class InMemoryDataPipelineDefinitionRepository : IDataPipelineDefinitionRepository {
 
+        // TODO json to file.
+        // TODO export dynamic object.
+        // TODO import Console Framework.
         private const string json = @"
 {
     ""objects"": [
